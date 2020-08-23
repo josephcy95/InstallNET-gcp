@@ -358,6 +358,9 @@ else
 fi
 
 clear && echo -e "\n\033[36m# Install\033[0m\n"
+echo $ipAddr
+echo $ipMask
+echo $ipGate
 
 ASKVNC(){
   inVNC='y';
